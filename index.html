@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="My site" />
+  <meta name="keywords" content="html, css, php"/>
+  <title>Pawel Doruzynski - Portfolio</title>
+
+
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato|Josefin+Sans&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+    
+</head>
+
+  <div id="cointaner">
+
+    <div class="rectangle">
+      <div id="logo">Pawel Doruzynski</div>
+      <div id="zegar"></div>
+      <div style="clear: both;"></div>
+    </div>
+
+    <div class="square">
+      <div class="tile1">
+        <a href="describe.html" class="tilelink"><i class="icon-user-plus"></i><br />Who I Am?</a>
+      </div>
+      <a href="oferta.html" class="tilelinkhtml5">
+        <div class="tile1">
+          <i class="icon-laptop-circled"></i><br />What I Offer?
+        </div>
+      </a>
+      <div style="clear: both;"></div>
+
+      <div class="tile2">
+        <a href="cv.html" class="tilelink"><i class="icon-user-plus"></i><br />Curriculum vitae</a>
+      </div>
+      <div class="tile3">
+        <a href="cover_letter.html" class="tilelink"><i class="icon-mail"></i><br />Cover letter</a>
+      </div>
+      <div style="clear:both;"></div>
+
+      <div class="tile4">
+        <i> Talk is cheap. Show me the code! </i>
+      </div>
+      
+
+    </div>
+    <div class="square">
+      <div class="tile5"><br />
+    I’m a graduate of computer science at the WSB University. I’m done          application developer courses cloud. I’m distinguished be creativity,       curiosity and willingness to learn. My motivation at work is a great        desire to acquire and develop new skills. I would like to be an expert       in what I do. I would like to get a chance new role.
+
+      </div>
+      <div class="yt">
+        <a href="http://youtube.com" target="_blank" class="sociallink"><i class="icon-youtube"></i></a>
+      </div>
+      <div class="fb">
+        <a href="" target="_blank" class="sociallink"><i class="icon-facebook"></i></a>
+      </div>
+      <div class="g">
+        <a href="" target="_blank" class="sociallink"><i class="icon-gplus-circled"></i></a>
+      </div>
+      <div class="tw">
+        <a href="" target="_blank" class="sociallink"><i class="icon-twitter"></i></a>
+      </div>
+      <div style="clear:both;"></div>
+
+    </div>
+    <div style="clear: both;"></div>
+
+    <div class="rectangle">2023 &copy; Pawel Doruzynski - Portfolio. A web developer invites you to cooperate.</div>
+
+  </div>
+  <script>
+    let time=document.getElementById("zegar");
+
+    setInterval(() =>{
+      let d = new Date();
+      time.innerHTML = d.toLocaleTimeString();
+    },1000)
+    
+  </script>
+    
+  
+
+    
+</body>
+</html>
